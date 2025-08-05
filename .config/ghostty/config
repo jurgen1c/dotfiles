@@ -41,11 +41,15 @@
 # # which is explained in the docs for that config option.
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
-
-theme = Nocturnal Winter
+theme = catppuccin-mocha
+# theme = GruvboxDark
+# font-family = Meslo LGS Nerd Font Mono
+# font-family = CaskaydiaMono Nerd Font
+font-family = CaskaydiaCove Nerd Font
+# theme = Nocturnal Winter
 
 background = #000000
-background-opacity = 0.75
+background-opacity = 0.95
 background-blur-radius = 23
 
 font-family = JetBrainsMonoNL Nerd Font 
@@ -107,4 +111,6 @@ keybind = super+b>h=goto_split:left
 keybind = super+b>j=goto_split:bottom
 keybind = super+b>k=goto_split:top
 keybind = super+b>l=goto_split:right
+theme = Nocturnal Winter
 
+gtk-titlebar = false
