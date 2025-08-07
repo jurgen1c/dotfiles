@@ -47,10 +47,11 @@ theme = catppuccin-mocha
 # font-family = CaskaydiaMono Nerd Font
 font-family = CaskaydiaCove Nerd Font
 # theme = Nocturnal Winter
-
+command=tmux
 background = #000000
 background-opacity = 0.95
 background-blur-radius = 23
+maximize= true
 
 font-family = JetBrainsMonoNL Nerd Font 
 font-size = 14
